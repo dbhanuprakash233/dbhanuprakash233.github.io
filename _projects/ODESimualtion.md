@@ -3,7 +3,6 @@ layout: page
 title: Numerical Simulation of a Two-Stage Rocket
 description: This project simulates the vertical flight of a two-stage rocket by solving a system of ordinary differential equations (ODEs) numerically using scipy.integrate.solve_ivp with the RK45 method. 
 img: assets/img/Rocket.jpeg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
