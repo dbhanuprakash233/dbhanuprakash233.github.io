@@ -63,7 +63,7 @@ ninja.data = [{
               window.location.href = "/projects/BayesianRisk/";
             },},{id: "projects-numerical-simulation-of-a-two-stage-rocket",
           title: 'Numerical Simulation of a Two-Stage Rocket',
-          description: "",
+          description: "This project simulates the vertical flight of a two-stage rocket by solving a system of ordinary differential equations (ODEs) numerically using scipy.integrate.solve_ivp with the RK45 method.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ODESimualtion/";
             },},{
