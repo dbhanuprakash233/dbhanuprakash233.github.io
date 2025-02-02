@@ -6,7 +6,7 @@ categories: mathematics
 tags: modeling python mathematics
 ---
 
-March 2020. The air crackled with a tension unlike any I'd felt before. My 10th semester exams loomed, but a shadow stretched far longer. News reports buzzed with the unfamiliar - "Wuhan Virus," "Corona," "COVID." Terms that would soon become etched in our vocabulary, a constant reminder of the invisible enemy at our doorstep.
+22nd March 2020. The air crackled with a tension unlike any I'd felt before. My 10th semester exams loomed, but a shadow stretched far longer. News reports buzzed with the unfamiliar - "Wuhan Virus," "Corona," "COVID." Terms that would soon become etched in our vocabulary, a constant reminder of the invisible enemy at our doorstep.
 
 Leaving the familiar walls of my hostel for an uncertain future, I boarded the train home. Little did I know, this exodus marked the beginning of a global odyssey, a fight against a once-in-a-century pandemic. It was a crash course in infectious diseases, a harsh lesson learned about a a silent, deadly foe on the cusp of adulthood.
 
