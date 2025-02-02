@@ -85,7 +85,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Language of Nature # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: # a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -618,8 +618,8 @@ third_party_libraries:
 
 jekyll_get_json:
   - data: resume
-    # json: assets/json/resume.json # it can also be an url
-    json: assets/pdf/DetailedCV_DBhanuPrakash.pdf # it can also be an url
+    json: assets/json/resume.json # it can also be an url
+    # json: assets/pdf/DetailedCV_DBhanuPrakash.pdf # it can also be an url
 
 jsonresume:
   - basics
