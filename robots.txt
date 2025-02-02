@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://dbhanuprakash233.github.io//sitemap.xml
+Sitemap: https://dbhanuprakash233.github.io//sitemap.xml
