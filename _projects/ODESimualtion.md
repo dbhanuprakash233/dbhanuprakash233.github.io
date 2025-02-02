@@ -1,15 +1,12 @@
 ---
 layout: page
 title: Numerical Simulation of a Two-Stage Rocket
-description: This project simulates the vertical flight of a two-stage rocket by solving a system of ordinary differential equations (ODEs) numerically using scipy.integrate.solve_ivp with the RK45 method. 
+description:  
 img: assets/img/Rocket.jpeg
 importance: 3
 category: work
 ---
 
-# Numerical Simulation of a Two-Stage Rocket
-
-## Overview
 This project simulates the vertical flight of a two-stage rocket by solving a **system of ordinary differential equations (ODEs)** numerically using `scipy.integrate.solve_ivp` with the RK45 method. The simulation accounts for quadratic air drag and gravitational forces but does not include parachute deployment during descent.
 
 ## Project Structure
@@ -34,6 +31,4 @@ This project simulates the vertical flight of a two-stage rocket by solving a **
 
 This project provides a simplified yet insightful look into two-stage rocket dynamics using numerical methods.
 
-The link for project code in Python is found in my repository: <div style="border:2px solid #4CAF50; padding:10px; background-color:#f0fff0; color:#333;">
-  <strong><a href="https://github.com/dbhanuprakash233/ODESimulation_TwoStageRocket/" style="color:#d93025;">Two-stage rocket simulation with ODEs. </a></strong>
-</div>
+The link for project code in Python is found in my repository: <strong><a href="https://github.com/dbhanuprakash233/ODESimulation_TwoStageRocket/" style="color:#d93025;">Two-stage rocket simulation with ODEs. </a></strong>
