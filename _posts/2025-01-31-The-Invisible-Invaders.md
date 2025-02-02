@@ -29,11 +29,11 @@ India faces a significant burden from infectious diseases, though successful pub
 
 The impact of these diseases varies depending on factors like age, location, and socioeconomic status. Public health initiatives by The Ministry of Health and Family Welfare, Government of India coupled with the efforts of the apex body for medical research in India, Indian Council of Medical Research (ICMR) played a crucial role in reducing the burden of infectious diseases. However, new and emerging infectious diseases like COVID-19 pose additional challenges. Here are a couple of statistics depicting the impact of infectious diseases on today’s modern world.
 
-![Source: OurWorldinData](/assets/img/death.png){ width=60px }
+![Source: OurWorldinData](/assets/img/death.png)
 
 [Source: Our World in Data](https://ourworldindata.org/grapher/infectious-disease-death-rates)
 
-![Source: Our World in Data](/assets/img/death2.png){ width=60px }
+![Source: Our World in Data](/assets/img/death2.png)
 
 [Source: Our World in Data](https://ourworldindata.org/grapher/burden-of-disease-by-cause)
 
