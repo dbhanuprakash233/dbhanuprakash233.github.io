@@ -49,6 +49,4 @@ This structured approach enables us to model relationships between assets, vulne
 2. We calculate the **posterior probabilities** of successful exploitation for each asset by integrating prior attack probabilities, conditional probabilities of attack success, and relationships between assets, vulnerabilities, and attack vectors.
 3. We **ranked assets** based on risk and provide insights into which assets are most vulnerable.
 
-The link for project code in Python is found in my repository: <div style="border:2px solid #4CAF50; padding:10px; background-color:#f0fff0; color:#333;">
-  <strong><a href="https://github.com/dbhanuprakash233/BayesianRiskAssesment/tree/main" style="color:#d93025;">Bayesian Risk Assessment </a></strong>
-</div>
+The link for project code in Python is found in my repository: <strong><a href="https://github.com/dbhanuprakash233/BayesianRiskAssesment/tree/main" style="color:#d93025;">Bayesian Risk Assessment </a></strong>
