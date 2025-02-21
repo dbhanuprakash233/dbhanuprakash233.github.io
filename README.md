@@ -31,7 +31,7 @@ Email: [dbhanuprakash233@gmail.com](mailto:dbhanuprakash233@gmail.com)
 ### Download Resume 
 
 <p align='center'>
-<a href="https://dbhanuprakash233.github.io/CV.pdf" target="_blank" rel="noopener noreferrer"><img src="/assets/img/download.png" height="50" title="Resume" alt="Curriculum Vitae"></a> 
+<a href="/assets/pdf/DetailedCV_DBhanuPrakash.pdf" target="_blank" rel="noopener noreferrer"><img src="/assets/img/download.png" height="50" title="Resume" alt="Curriculum Vitae"></a> 
 </p>
 
 
