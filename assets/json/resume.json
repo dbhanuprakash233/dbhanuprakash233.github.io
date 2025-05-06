@@ -1,0 +1,144 @@
+{
+  "basics": {
+    "name": "D Bhanu Prakash",
+    "label": "PhD, Mathematical Biology",
+    "image": "",
+    "email": "dbhanuprakash233@gmail.com",
+    "phone": "(+91) 99895 51935",
+    "url": "https://dbhanuprakash233.github.io/",
+    "summary": "A fourth year PhD student in mathematical ecology from Sri Sathya Sai Institute of Higher Learning, India under a DAE-NBHM funded project.",
+    "location": {
+      "address": "Sri Sathya Sai Hostel for Senior Students",
+      "postalCode": "515 134",
+      "city": "Puttaparthi",
+      "countryCode": "India",
+      "region": "Andhra Pradesh"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "dbhanuprakash233",
+        "url": "linkedin.com/in/dbhanuprakash233"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "National Board of Higher Mathematics (DAE-NBHM) Project",
+      "position": "Research Fellow",
+      "startDate": "2021-10-01",
+      "endDate": "2024-09-30",
+      "summary": "Project Title - Time Optimal Control Studies and Bifurcation Analysis of Coupled Nonlinear Dynamical Systems with Applications to Pest Management",
+      "highlights": ["Optimal Control", "Bifurcation", "Dynamical Systems"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sri Sathya Sai Institute of Higher Learning, India",
+      "location": "Puttaparthi, India",
+      "url": "https://www.sssihl.edu.in/",
+      "area": "Mathematical Biology",
+      "studyType": "PhD",
+      "startDate": "2021-03-01",
+      "endDate": "2025-04-30",
+      "courses": ["Mathematical Ecology", "Dynamical Systems", "Optimal Control"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Data Analysis with R Specialization",
+      "date": "2025-03-01",
+      "issuer": "Duke University through Coursera",
+      "url": "https://coursera.org/share/e8da0bafd037f7ac632db385c5663bcd",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Stochastic Processes",
+      "date": "2024-07-14",
+      "issuer": "HSE University through Coursera",
+      "url": "https://coursera.org/share/4128c12070b6ac2be6d94ab12e888122",
+      "icon": "fa-solid fa-tag"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Risk Assessment of Cyberattacks Using Bayesian Network",
+      "summary": "Delivered data-driven strategies for prioritizing cybersecurity defenses.",
+      "highlights": ["Cybersecurity", "Bayesian Statistics"],
+      "startDate": "2025-01-01",
+      "endDate": "2025-01-01",
+      "url": "https://github.com/dbhanuprakash233/BayesianRiskAssesment"
+    },
+    {
+      "name": "Numerical Simulation of a Two-Stage Rocket",
+      "summary": "This project simulates the vertical flight of a two-stage rocket by solving a system of ordinary differential equations (ODEs) numerically using scipy.integrate.solve ivp with the RK45 method.",
+      "highlights": ["Ordinary Differential Equations", "Python"],
+      "startDate": "2024-12-01",
+      "endDate": "2024-12-01",
+      "url": "https://github.com/dbhanuprakash233/ODESimulation_TwoStageRocket"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Stochastic time-optimal control and sensitivity studies for additional food provided prey-predator systems involving holling type-iv functional response",
+      "publisher": "Frontiers in Applied Mathematics and Statistics",
+      "releaseDate": "2023-01-01",
+      "url": "https://doi.org/10.3389/fams.2023.1122107"
+    },
+    {
+      "name": "Optimal drug regimen and combined drug therapy and its efficacy in the treatment of covid-19 - A within-host modeling study",
+      "publisher": "Acta Biotheoretica",
+      "releaseDate": "2022-01-01",
+      "url": "https://doi.org/10.1007/s10441-022-09440-8"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Mathematics",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Dynamical Systems",
+        "Control Theory",
+        "Stochastic Dynamics",
+        "Ordinary Differential Equations"
+      ]
+    },
+    {
+      "name": "Misc",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "LaTeX"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Native speaker",
+      "icon": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor D K K Vamsi",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Profile: https://www.sssihl.edu.in/team/krishna-kiran-vamsi-dasu/"
+    },
+    {
+      "name": "Professor N Uday Kiran",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Profile: https://www.sssihl.edu.in/team/n-uday-kiran/"
+    },
+    {
+      "name": "Professor Pallav Kumar Baruah",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Profile: https://www.sssihl.edu.in/team/pallav-kumar-baruah/"
+    }
+  ]
+}
