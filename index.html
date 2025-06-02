@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Bhanu Prakash - Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Custom styles can be added here if needed */
+        body {
+            font-family: 'Inter', sans-serif; /* Using Inter font as per guidelines */
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -29px; /* Adjust based on icon size and desired position */
+            top: 0;
+            width: 18px;
+            height: 18px;
+            background-color: #3b82f6; /* blue-500 */
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .timeline-line {
+            position: absolute;
+            left: -21px; /* Center with the dot */
+            top: 18px; /* Start below the dot */
+            bottom: 0;
+            width: 2px;
+            background-color: #e5e7eb; /* gray-200 */
+        }
+        .timeline-item:last-child .timeline-line {
+            display: none; /* Hide line for the last item */
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-6xl">
+        <header class="bg-white shadow-lg rounded-lg p-6 md:p-8 mb-8">
+            <div class="flex flex-col md:flex-row items-start md:items-center">
+                <div class="w-full md:w-1/4 flex justify-center md:justify-start mb-6 md:mb-0 md:mr-8">
+                    <img
+                        src="Bhanu.png"
+                        alt="D Bhanu Prakash"
+                        class="rounded-full w-32 h-32 md:w-48 md:h-48 object-cover border-4 border-blue-500 shadow-md"
+                        onerror="this.onerror=null; this.src='https://placehold.co/200x200/E2E8F0/4A5568?text=Image+Error';"
+                    >
+                </div>
+
+                <div class="w-full md:w-3/4 text-center md:text-left">
+                    <h1 class="text-3xl md:text-4xl font-bold text-blue-600 mb-2">D Bhanu Prakash</h1>
+                    <p class="text-lg text-gray-700 mb-1"><strong>PhD in Applied Mathematics</strong>, Sri Sathya Sai Institute of Higher Learning, India</p>
+
+                    <div class="mb-4">
+                        <a href="mailto:dbhanuprakash233@gmail.com" class="text-blue-500 hover:text-blue-700 hover:underline transition duration-150 ease-in-out mr-4">
+                            <i class="fas fa-envelope mr-2"></i>dbhanuprakash233@gmail.com
+                        </a>
+                    </div>
+
+                    <div class="flex justify-center md:justify-start space-x-4 mb-4">
+                        <a href="https://www.linkedin.com/in/dbhanuprakash233/" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-700 transition duration-150 ease-in-out" title="LinkedIn">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://x.com/bhanuprakash233" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-500 transition duration-150 ease-in-out" title="Twitter/X">
+                            <i class="fab fa-twitter fa-2x"></i> </a>
+                        <a href="https://github.com/dbhanuprakash233" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" title="GitHub">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?hl=en&user=uh1ZaA8AAAAJ" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-blue-400 transition duration-150 ease-in-out" title="Google Scholar">
+                            <i class="fas fa-graduation-cap fa-2x"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0003-0240-2962" target="_blank" rel="noopener noreferrer" class="text-gray-600 hover:text-green-600 transition duration-150 ease-in-out" title="ORCID">
+                            <i class="fab fa-orcid fa-2x"></i>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="CV_DBhanuPrakash.pdf" target="_blank" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:shadow-lg transition duration-150 ease-in-out">
+                            <i class="fas fa-file-pdf mr-2"></i>Detailed CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-1 gap-8">
+
+            <section class="bg-white shadow-lg rounded-lg p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-blue-600 mb-6 border-b-2 border-blue-200 pb-2">The Academic Arc</h2>
+                <div class="relative">
+                    <div class="timeline-item mb-8 pl-8 relative">
+                        <div class="timeline-line"></div>
+                        <p class="text-sm text-gray-500 mb-1"><strong>Timeline:</strong> March 2021 - May 2025</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Submitted PhD Thesis</h3>
+                        <p class="text-gray-700">
+                            Submitted my PhD thesis titled “Dynamics and Control of Additional Food Provided Prey-Predator Systems: A Deterministic and Stochastic Study with reference to Holling Type-III/IV Responses Incorporating Mutual Interference and Intraspecific Competition” 
+                        under the supervision of <a href="https://www.sssihl.edu.in/faculty/krishna-kiran-vamsi-dasu/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Dr. Krishna Kiran Vamsi Dasu</a>. The research was conducted at <a href="https://www.sssihl.edu.in/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Sri Sathya Sai Institute of Higher Learning</a>, India, focusing on mathematical modeling and ecological dynamics.
+                        Thesis submission was completed in May, 2025, marking a major step in my doctoral journey.                       
+                     </p>
+                    </div>
+
+                    <div class="timeline-item mb-8 pl-8 relative">
+                        <div class="timeline-line"></div>
+                        <p class="text-sm text-gray-500 mb-1"><strong>Timeline:</strong> May 8-10, 2025</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Resource Person for FDP at MITE</h3>
+                        <p class="text-gray-700">
+                            Invited as a resource person for a Faculty Development Program on “Statistical Process Design using R & Python” at <strong><em>Mangalore Institute of Technology & Engineering (MITE)</em></strong>, Karnataka in May 8-10, 2025.
+                            <strong>Conducted a 4-hour lecture and hands-on session on Stochastic Processes and Multivariate Analysis</strong>. It was a meaningful opportunity to contribute to faculty enrichment and peer learning at MITE.
+                        </p>
+                    </div>
+
+                    <div class="timeline-item pl-8 relative">
+                        <p class="text-sm text-gray-500 mb-1"><strong>Timeline:</strong> October 2021 - September 2024</p>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-1">Completed 3-Year NBHM Research Project</h3>
+                        <p class="text-gray-700">
+                            Successfully completed a 3-year Research Fellowship under the project titled <em>"Time Optimal Control Studies and Bifurcation Analysis of Coupled Nonlinear Dynamical Systems with Applications to Pest Management"</em>
+                            by <strong>Department of Atomic Energy - National Board of Higher Mathematics (DAE-NBHM)</strong>, Government of India at Sri Sathya Sai Institute of Higher Learning.
+                            The fellowship, from October 2021 to September 2024, involved in-depth work in mathematical modeling and ecological dynamics. 
+                            The experience deepened my expertise in nonlinear dynamical systems and resulted in 2 journal publications, 3 international conference talks and findings related to pest management strategies.
+                        </p>
+                    </div>
+                    </div>
+            </section>
+
+            <section class="bg-white shadow-lg rounded-lg p-6 md:p-8">
+                <h2 class="text-2xl font-bold text-blue-600 mb-6 border-b-2 border-blue-200 pb-2">Recent Publications</h2>
+                <ul class="space-y-6">
+                    <li class="p-4 border border-gray-200 rounded-md hover:shadow-md transition-shadow duration-150">
+                        <h3 class="text-lg font-semibold text-gray-800">Deterministic and Stochastic Studies on Additional Food Provided Prey-Predator Systems with Group Defence among Prey and Mutual Interference among Predators</h3>
+                        <p class="text-sm text-gray-600 italic">D Bhanu Prakash and D K K Vamsi. (2025). Under review.</p>
+                        <p class="text-gray-700 mt-2">
+                            The influence of competition and additional food on prey-predator dynamics has attracted considerable interest from mathematical biology researchers in recent times. 
+                            In this study, we consider an additional food provided prey-predator model exhibiting Holling type-IV functional response among mutually interferring predators. 
+                            We show that the findings of these deterministic and stochastic dynamics and control studies have the potential to be applied to a variety of problems in pest management.
+                        </p>
+                        <a href="https://www.arxiv.org/abs/2504.21114" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline mt-2 inline-block">
+                            <i class="fas fa-link mr-1"></i>Preprint on arXiv
+                        </a>
+                    </li>
+
+                    <li class="p-4 border border-gray-200 rounded-md hover:shadow-md transition-shadow duration-150">
+                        <h3 class="text-lg font-semibold text-gray-800">Stochastic time-optimal control and sensitivity studies for additional food provided prey-predator systems involving Holling type-IV functional response</h3>
+                        <p class="text-sm text-gray-600 italic">D Bhanu Prakash and D K K Vamsi. (2025). Frontiers in Applied Mathematics and Statistics </p>
+                        <p class="text-gray-700 mt-2">
+                            This paper presents a comprehensive study on the stochastic time-optimal control of additional food provided prey-predator systems exhibiting Holling type-IV functional response and intra-specific competition among predators. 
+                            We investigate the sensitivity of the system to various parameters and provide insights into the optimal management of such ecological models.
+                        </p>
+                        <a href="https://doi.org/10.3389/fams.2023.1122107" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline mt-2 inline-block">
+                            <i class="fas fa-book-open mr-1"></i>Access Publication
+                        </a>
+                    </li>
+                    </ul>
+            </section>
+        </div>
+
+        <footer class="text-center py-8 mt-8 text-gray-600">
+            <p>&copy; <span id="currentYear"></span> D Bhanu Prakash. All Rights Reserved.</p>
+            <p class="text-sm">Powered by determination and coffee.</p>
+        </footer>
+    </div>
+
+    <script>
+        // JavaScript to set the current year in the footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
