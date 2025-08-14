@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Materials</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #000000;
+            --border-color: #444;
+            --table-header-bg: #f0f0f0;
+            --link-color: #0066cc;
+            --link-hover: #004c99;
+            --instructions-bg: #f8f8f8;
+        }
+        body.dark {
+            --bg-color: #1e1e1e;
+            --text-color: #e0e0e0;
+            --border-color: #666;
+            --table-header-bg: #333;
+            --link-color: #4da3ff;
+            --link-hover: #82c0ff;
+            --instructions-bg: #2a2a2a;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 15px;
+            line-height: 1.6;
+            background: var(--bg-color);
+            color: var(--text-color);
+            transition: background 0.3s, color 0.3s;
+        }
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        header img {
+            height: 80px;
+            margin-right: 20px;
+        }
+        header div {
+            flex: 1;
+            min-width: 200px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            min-width: 500px;
+        }
+        table, th, td {
+            border: 1px solid var(--border-color);
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: var(--table-header-bg);
+        }
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: var(--link-hover);
+        }
+        .section {
+            margin-bottom: 15px;
+        }
+        .section h3 {
+            margin-bottom: 5px;
+        }
+        .instructions {
+            background: var(--instructions-bg);
+            padding: 15px;
+            border: 1px solid var(--border-color);
+        }
+        /* Toggle button fixed */
+        .theme-toggle {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            padding: 8px 12px;
+            background: var(--table-header-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            z-index: 999;
+        }
+        /* Mobile tweaks */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            header img {
+                margin: 0 0 10px 0;
+            }
+            table {
+                font-size: 14px;
+            }
+            th, td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<button class="theme-toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+
+<header>
+    <img src="logo.png" alt="Institute Logo">
+    <div>
+        <h1>Course Name (Course Code)</h1>
+        <p>Instructor: Your Name</p>
+        <p>Institute Name</p>
+    </div>
+</header>
+
+<h2>Unit-wise Materials</h2>
+<div class="table-container">
+    <table>
+        <tr>
+            <th>Unit</th>
+            <th>Course PDF</th>
+            <th>Problem Set</th>
+            <th>Solutions</th>
+        </tr>
+        <tr>
+            <td>Unit 1</td>
+            <td><a href="pdfs/unit1/course.pdf">View</a></td>
+            <td><a href="pdfs/unit1/problems.pdf">View</a></td>
+            <td><a href="pdfs/unit1/solutions.pdf">View</a></td>
+        </tr>
+        <tr>
+            <td>Unit 2</td>
+            <td><a href="pdfs/unit2/course.pdf">View</a></td>
+            <td><a href="pdfs/unit2/problems.pdf">View</a></td>
+            <td><a href="pdfs/unit2/solutions.pdf">View</a></td>
+        </tr>
+    </table>
+</div>
+
+<h2>Section-wise Assignments</h2>
+<div class="section">
+    <h3>Section A</h3>
+    <a href="assignments/sectionA.pdf">📄 Download Assignment</a>
+</div>
+<div class="section">
+    <h3>Section B</h3>
+    <a href="assignments/sectionB.pdf">📄 Download Assignment</a>
+</div>
+<div class="section">
+    <h3>Section C</h3>
+    <a href="assignments/sectionC.pdf">📄 Download Assignment</a>
+</div>
+<div class="section">
+    <h3>Section D</h3>
+    <a href="assignments/sectionD.pdf">📄 Download Assignment</a>
+</div>
+
+<h2>Common Instructions</h2>
+<div class="instructions">
+    <ul>
+        <li>Submit all assignments by the due date.</li>
+        <li>Include your student ID on all submissions.</li>
+        <li>Late submissions require prior approval.</li>
+    </ul>
+</div>
+
+<script>
+    function setTheme(isDark) {
+        document.body.classList.toggle('dark', isDark);
+        document.querySelector('.theme-toggle').textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    }
+
+    function toggleTheme() {
+        setTheme(!document.body.classList.contains('dark'));
+    }
+
+    (function() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            setTheme(savedTheme === 'dark');
+        } else {
+            setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches);
+        }
+    })();
+</script>
+
+</body>
+</html>
