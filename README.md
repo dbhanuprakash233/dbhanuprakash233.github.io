@@ -8,7 +8,7 @@ Thanks for stopping by.
 
 As a dedicated researcher in mathematical biology, I am driven by a profound commitment to advancing scientific knowledge for a better tomorrow. This website serves as a platform to share my research findings, insights and the latest developments in the dynamic field of mathematical biology.
 
-I am currently an Assistant Professor in Mathematics at [Vignan's Foundation for Science, Technology $\&$ Research](https://vignan.ac.in/newvignan/people.php) (Deemed to be University), Guntur, Andhra Pradesh, India.
+I am currently an Assistant Professor in Mathematics at [Vignan's Foundation for Science, Technology \& Research](https://vignan.ac.in/newvignan/people.php) (Deemed to be University), Guntur, Andhra Pradesh, India.
 
 I submitted my doctoral thesis as part of the Ph.D. in Mathematics at the Department of Mathematics and Computer Science, [Sri Sathya Sai Institute of Higher Learning](https://www.sssihl.edu.in/), India, specializing in Dynamical Systems and Optimal Control Theory with applications in Mathematical Biology. 
 
