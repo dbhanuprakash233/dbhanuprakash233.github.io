@@ -33,6 +33,14 @@
         .timeline-item:last-child .timeline-line {
             display: none; /* Hide line for the last item */
         }
+        .emoji-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .emoji-list li::before {
+            content: "👉 ";
+            margin-right: 6px;
+        }
     </style>
     <script>
         tailwind.config = {
@@ -110,7 +118,11 @@
                             Hello everyone,
                             I’m delighted to share that I have joined the <a href="https://vignan.ac.in/newvignan/people.php" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Vignan's Foundation for Science, Technology and Research</a>, Guntur, Andhra Pradesh
                             as an Assistant Professor in the Department of Mathematics and Statistics. As part of my teaching responsibilities, 
-                            I will be offering a course on <a href="https://dbhanuprakash233.github.io/FEM/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">Fundamentals of Engineering Mathematics (FEM)</a> this semester. 
+                            I will be offering the following courses in this semester. 
+                            <ul class="emoji-list">
+                              <li><a href="https://dbhanuprakash233.github.io/FEM/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">25MT101 - Fundamentals of Engineering Mathematics (FEM)</a> </li>
+                              <li><a href="https://dbhanuprakash233.github.io/LA/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">25MT103 - Linear Algebra (LA)</a> </li>
+                            </ul>
                             Excited to embark on this new journey of learning and teaching!                      
                      </p>
                     </div>
