@@ -29,7 +29,7 @@ Email: [dbhanuprakash233@gmail.com](mailto:dbhanuprakash233@gmail.com)
         <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" /></a>&nbsp;&nbsp;
     <a href="https://scholar.google.com/citations?hl=en&user=uh1ZaA8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate">
         <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" /></a>&nbsp;&nbsp;
-    <a href="https://scholar.google.com/citations?hl=en&user=uh1ZaA8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate">
+    <a href="https://x.com/bhanuprakash233">
         <img src="https://img.shields.io/badge/Follow-X-black?style=for-the-badge&logo=x&logoColor=white" /></a>&nbsp;&nbsp;
 </p>
 
