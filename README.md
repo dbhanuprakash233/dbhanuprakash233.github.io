@@ -30,7 +30,7 @@ Email: [dbhanuprakash233@gmail.com](mailto:dbhanuprakash233@gmail.com)
     <a href="https://scholar.google.com/citations?hl=en&user=uh1ZaA8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate">
         <img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white" /></a>&nbsp;&nbsp;
     <a href="https://scholar.google.com/citations?hl=en&user=uh1ZaA8AAAAJ&view_op=list_works&authuser=2&sortby=pubdate">
-        <img src="https://img.shields.io/badge/Follow-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>&nbsp;&nbsp;
+        <img src="https://img.shields.io/badge/Follow-X-black?style=for-the-badge&logo=x&logoColor=white" /></a>&nbsp;&nbsp;
 </p>
 
 
