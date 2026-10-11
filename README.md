@@ -1,6 +1,6 @@
 # D Bhanu Prakash
 
-<img title="a title" alt="Alt text" style="float: right;" width="200" src="Bhanu.png">
+<img title="a title" alt="Alt text" style="float: right;" width="200" src="Bhanu.jpg">
 
 Hi there!
 
